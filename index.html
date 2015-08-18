@@ -24,17 +24,19 @@
  <body>
  
  <!-- Principal -->
- <div data-role="page" id="principal" >   
-  <div data-role="header">
-    <h1>Encabezado</h1>
-  </div>
-
-  <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
-  </div>
-
+ <div data-role="page" id="principal" >  
+ <div>
+ <ul data-role="listview">
+ <li><a href="#principal">Principal</a></li>
+  <li><a href="#pantalla01">bienvenida</a></li>
+  <li><a href="#pantalla02">ajustes</a></li>
+  <li><a href="#pantalla03">puntajes</a></li>
+  <li><a href="#pantalla04">acerca de</a></li>
+  <li><a href="#pantalla05">ayuda</a></li>
+ </ul>
+ </div>
   <div data-role="footer">
-    <h1>Pie</h1>
+    <h1>Menú</h1>
   </div>
  </div>  
  <!-- Principal -->
@@ -42,11 +44,11 @@
  <!-- bienvenida-->
  <div data-role="page" id="bienvenida" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Bienvenida</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+    <a href="#pantalla01" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
   <div data-role="footer">
@@ -58,11 +60,11 @@
   <!-- pantalla01 -->
  <div data-role="page" id="pantalla01" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Bienvenida</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+    <a href="#pantalla02" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
   <div data-role="footer">
@@ -74,13 +76,15 @@
   <!-- Pantalla02 -->
  <div data-role="page" id="pantalla02" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>ajustes</h1>
   </div>
-
+<center
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
-  </div>
-
+    <a href="#" id="btn_sonido" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline">sonido</a>
+    <div data-role="main" class="ui-content">
+     <a href="#" id="btn_vibrar" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right ui-btn-inline">vibrar</a>
+     </div>
+</center>
   <div data-role="footer">
     <h1>Pie</h1>
   </div>
@@ -90,11 +94,11 @@
   <!-- Pantalla03 -->
  <div data-role="page" id="pantalla03" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>puntajes</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+    <a href="#pantalla04" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
   <div data-role="footer">
@@ -106,11 +110,11 @@
   <!-- Panytalla04 -->
  <div data-role="page" id="pantalla04" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>acerca de</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+    <a href="#pantalla05" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
   <div data-role="footer">
@@ -122,11 +126,11 @@
   <!-- Pantalla05 -->
  <div data-role="page" id="pantalla05" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>ayuda</h1>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
+    <a href="#pantalla06" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
   <div data-role="footer">
@@ -138,7 +142,7 @@
   <!-- Pantalla06 -->
  <div data-role="page" id="pantalla06" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Pantalla06</h1>
   </div>
 
   <div data-role="main" class="ui-content">
